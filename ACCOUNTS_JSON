@@ -1,0 +1,74 @@
+{
+    "accounts": [
+        {
+            "username": "your_username",
+            "password": "your_password",
+            "panelnum": 1,
+            "type": "serv00",
+            "checkUrl": "",
+            "cronCommands": [
+                {
+                    "command": "php /path/to/your/script.php",
+                    "minuteTimeInterval": "every",
+                    "minute": "10",
+                    "hourTimeInterval": "each",
+                    "hour": "*",
+                    "dayTimeInterval": "each",
+                    "day": "*",
+                    "monthTimeInterval": "each",
+                    "month": "*",
+                    "dowTimeInterval": "each",
+                    "dow": "*"
+                },
+                {
+                    "command": "python /path/to/your/other_script.py",
+                    "minuteTimeInterval": "on",
+                    "minute": "0",
+                    "hourTimeInterval": "on",
+                    "hour": "0",
+                    "dayTimeInterval": "each",
+                    "day": "*",
+                    "monthTimeInterval": "each",
+                    "month": "*",
+                    "dowTimeInterval": "each",
+                    "dow": "*"
+                }
+            ]
+        },
+        {
+            "username": "your_username2",
+            "password": "your_password2",
+            "panelnum": 1,
+            "type": "serv00",
+            "checkUrl": "",
+            "cronCommands": [
+                {
+                    "command": "php /path/to/your/script.php",
+                    "minuteTimeInterval": "every",
+                    "minute": "10",
+                    "hourTimeInterval": "each",
+                    "hour": "*",
+                    "dayTimeInterval": "each",
+                    "day": "*",
+                    "monthTimeInterval": "each",
+                    "month": "*",
+                    "dowTimeInterval": "each",
+                    "dow": "*"
+                },
+                {
+                    "command": "python /path/to/your/other_script.py",
+                    "minuteTimeInterval": "on",
+                    "minute": "0",
+                    "hourTimeInterval": "on",
+                    "hour": "0",
+                    "dayTimeInterval": "each",
+                    "day": "*",
+                    "monthTimeInterval": "each",
+                    "month": "*",
+                    "dowTimeInterval": "each",
+                    "dow": "*"
+                }
+            ]
+        }
+    ]
+}
